@@ -17,10 +17,9 @@
 			<p class="indent"><strong><em>Age.</em></strong> Fays mature at the same rate as elves, they’re considered young until they reach the age of 100. On average, they live about 2000 years.</p>
 			<p class="indent"><strong><em>Size.</em></strong> Fays stand at less then 6 feet tall and average about 100 pounds. Your size is Medium.</p>
 			<p class="indent"><strong><em>Speed.</em></strong> Your base walking speed is 30 feet.</p>
-			<p class="indent"><strong><em>Elven Body.</em></strong> You can breath both water and air, and can hold your breath for 8 times your constitution modifier (minimum 1).
- Also as a part Elf, you don't need to sleep. Instead, you meditate deeply, remaining semiconscious, for 4 hours a day. While meditating, you can dream after a fashion; such dreams are actually mental exercises that have become reflexive through years of practice. After resting in this way, you gain the same benefit that a human does from 8 hours of sleep</p>
+			<p class="indent"><strong><em>Elven Body.</em></strong> You can breath both water and air, and can hold your breath for 8 times your constitution modifier (minimum 1). Also as a part Elf, you don't need to sleep. Instead, you meditate deeply, remaining semiconscious, for 4 hours a day. While meditating, you can dream after a fashion; such dreams are actually mental exercises that have become reflexive through years of practice. After resting in this way, you gain the same benefit that a human does from 8 hours of sleep.</p>
 			<p class="indent"><strong><em>Fairy Wings.</em></strong> Because of your wings, you have a flying speed equal to your walking speed. You can’t use this flying speed if you’re wearing medium or heavy armor</p>
-			<p class="indent"><strong><em>Languages.</em></strong> You can speak, read, and write Common and elvish..</p>
+			<p class="indent"><strong><em>Languages.</em></strong> You can speak, read, and write Common and elvish.</p>
 		</description>
 		<sheet display="false" />
 		<rules>            

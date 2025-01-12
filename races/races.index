@@ -8,8 +8,9 @@
 			<file name="core.index" url="https://raw.githubusercontent.com/SirTalpaDeRedstoneville5885/Aurora_Personal/main/core.index" />
 		</update>
 	</info>
-	<files>
-	 <file name="Items.xml" url="https://raw.github.com/SirTalpaDeRedstoneville5885/Aurora_Personal/main/Items.xml" />
- 	 <file name="races.index" url="https://raw.githubusercontent.com/SirTalpaDeRedstoneville5885/Aurora_Personal/refs/heads/main/races/races.index"/>
+    <files>
+	 <file name="Dwarf_race.xml" url="https://raw.githubusercontent.com/SirTalpaDeRedstoneville5885/Aurora_Personal/refs/heads/main/Razze/Dwarf_race.xml" />
+	 <file name="Fay_race.xml" url="https://raw.githubusercontent.com/SirTalpaDeRedstoneville5885/Aurora_Personal/main/Razze/Fay_race.xml" />
 	</files>
+	
 </index>
