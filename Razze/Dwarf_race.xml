@@ -55,14 +55,12 @@
 			<grant type="Language" id="ID_LANGUAGE_COMMON" />
 			<grant type="Language" id="ID_LANGUAGE_DWARVISH" />
 			<select type="Language" name="Customized Language" supports="Custom Race Language" number="2"  requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
-			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_DWARVEN_RESILIENCE" />
-			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_DWARVEN_COMBAT_TRAINING" requirements="!ID_WOTC_PSK_SUBRACE_KALADESH_DWARF" />
-			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_DWARVEN_TOOL_PROFICIENCY" requirements="!ID_WOTC_PSK_SUBRACE_KALADESH_DWARF" />
-			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_STONECUNNING" requirements="!ID_WOTC_PSK_SUBRACE_KALADESH_DWARF" />
+			<grant type="Racial Trait" id="ID_HB_DWARVEN_NATURAL_ARMOR" />
+			<grant type="Racial Trait" id="ID_HB_RACIAL_TRAIT_DWARVEN_TOOL_PROFICIENCY" />
 			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_DWARVEN_SUBRACE" />
 		</rules>
 	</element>
-    <element name="Natural Armor" type="Racial Trait" source="My Personal homebrew shit " id="ID_WOTC_TOA_RACIAL_TRAIT_TORTLE_NATURAL_ARMOR">
+    <element name="Natural Armor" type="Racial Trait" source="My Personal homebrew shit " id="ID_HB_DWARVEN_NATURAL_ARMOR">
         <description>
             <p>Due to your hard skin and the shape of your body, you are ill-suited to wearing armor. Your skin provides ample protection, however; it gives you a base AC of 17 (your Dexterity modifier doesn't affect this number). You gain no benefit from wearing armor, but if you are using a shield, you can apply the shield's bonus as normal.</p>
         </description>
@@ -74,7 +72,7 @@
             <stat name="ac:calculation" value="Dwarf:natural armor" bonus="calculation" alt="Natural Armor (Dwarf)" />
         </rules>
     </element>
-	<element name="Tool Proficiency" type="Racial Trait" source="My Personal homebrew shit 🏠🍲" id="ID_RACIAL_TRAIT_DWARVEN_TOOL_PROFICIENCY">
+	<element name="Tool Proficiency" type="Racial Trait" source="My Personal homebrew shit 🏠🍲" id="ID_HB_RACIAL_TRAIT_DWARVEN_TOOL_PROFICIENCY">
 		<description>
 			<p>You gain proficiency with the artisan’s tools of your choice: smith’s tools, jeweler’s supplies, or mason’s tools.</p>
 		</description>
@@ -93,7 +91,7 @@
 			<select type="Sub Race" name="Dwarven Subrace" supports="Dwarf 🏠🍲" />
 		</rules>
 	</element>
-
+<!--Per qualche ragione lui funziona perfettamente-->
 	<element name="Arcane Dwarf" type="Sub Race" source="My Personal homebrew shit 🏠🍲" id="ID_HB_SUB_RACE_ARCANE_DWARF">
 		<supports>Dwarf</supports>
 		<description>
@@ -107,12 +105,11 @@
 			<set name="weight" modifier="2d6">130 lb.</set>
 		</setters>
 		<rules>
-			<stat name="strength" value="2" />
-			<select type="Ability Score Improvement" name="Custom Ability Score Improvement +2 (Arcane Dwarf)" supports="Custom Ability Score Increase 2" requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_ASI" />
-			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_DWARVEN_ARMOR_TRAINING" />
+			<stat name="strength" value="1" />
+			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_SECONDARY_ARMS" />
 		</rules>
 	</element>
-	<element name="Secondary arms" type="Racial Trait" source="My Personal homebrew shit 🏠🍲" id="ID_RACIAL_TRAIT_DWARVEN_ARMOR_TRAINING">
+	<element name="Secondary arms" type="Racial Trait" source="My Personal homebrew shit 🏠🍲" id="ID_RACIAL_TRAIT_SECONDARY_ARMS">
 		<description>
 			<p>You have two slightly smaller secondary arms below your primary pair of arms. The secondary arms function like your primary arms, with the following exceptions: You can use a secondary arm to wield a weapon that has the light property, but you can’t use a secondary arm to wield other kinds of weapons.   You can’t wield a shield with a secondary arm..</p>
 		</description>
