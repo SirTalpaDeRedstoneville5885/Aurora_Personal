@@ -40,7 +40,7 @@
 		<sheet display="false" />
 		<setters>
 			<set name="names" type="male"> Thargrim, Gorhulur, Brodur, Kazmak, Durnek, Vogruk, Tholmak, Grimhul, Rorkal, Kordrum, Atur, Aslan, Foghulur</set>
-			<set name="names" type="female" Tharnila, Dorgura, Foglurith, Kazrida, Vorlina, Zurneth, Tholgrida, Morrika, Bryndur, Glimara></set>
+			<set name="names" type="female"> Tharnila, Dorgura, Foglurith, Kazrida, Vorlina, Zurneth, Tholgrida, Morrika, Bryndur, Glimara</set>
 			<set name="names" type="neutral"> Drunvak, Kazril, Gorikaal, Rutharn, Vogrim, Torlen</set>
 			<set name="names" type="clan"> Clangemma, Fauci di Ferro, Martellorosso, Cuorescaglia, Scolpitoroccia, Spira d’Ossidiana, Zoccoli di Torma, Rompipietra, Rocciastridente, Forgiaombra</set>
 			<set name="names-format">{{name}} {{clan}}</set>
