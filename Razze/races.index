@@ -10,6 +10,7 @@
 	</info>
     <files>
 	 <file name="Dwarf_race.xml" url="https://raw.githubusercontent.com/SirTalpaDeRedstoneville5885/Aurora_Personal/refs/heads/main/Razze/Dwarf_race.xml" />
+	 <file name="Fay_race.xml" url="https://raw.githubusercontent.com/SirTalpaDeRedstoneville5885/Aurora_Personal/main/Razze/Fay_race.xml" />
 	</files>
 	
 </index>
