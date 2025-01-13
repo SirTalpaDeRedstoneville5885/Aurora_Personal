@@ -33,5 +33,6 @@
 			<grant type="Language" id="ID_LANGUAGE_ELVISH" />
 			<select type="Language" name="Customized Language" supports="Custom Race Language" number="2"  requirements="ID_WOTC_TCOE_OPTION_CUSTOMIZED_LANGUAGE" />
 		</rules>
-
+	</element>
+	
 </elements>
