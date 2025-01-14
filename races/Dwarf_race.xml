@@ -4,7 +4,7 @@
 		<name>Homebrew</name>
 		<description>The Dwarf race from My Personal homebrew shit 🏠🍲</description>
 		<author url="https://github.com/SirTalpaDeRedstoneville5885">SirTalpaDeRedstoneville5885</author>
-		<update version="0.0.1">
+		<update version="0.0.3">
 			<file name="Dwarf_race.xml" url="https://raw.githubusercontent.com/SirTalpaDeRedstoneville5885/Aurora_Personal/main/Razze/Dwarf_race.xml" />
 		</update>
 	</info>
