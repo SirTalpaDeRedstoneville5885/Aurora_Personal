@@ -60,7 +60,7 @@
 			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_DWARVEN_SUBRACE" />
 		</rules>
 	</element>
-    <element name="Natural Armor" type="Racial Trait" source="My Personal homebrew shit " id="ID_HB_DWARVEN_NATURAL_ARMOR">
+    <element name="Natural Armor" type="Racial Trait" source="My Personal homebrew shit 🏠🍲" id="ID_HB_DWARVEN_NATURAL_ARMOR">
         <description>
             <p>Due to your hard skin and the shape of your body, you are ill-suited to wearing armor. Your skin provides ample protection, however; it gives you a base AC of 17 (your Dexterity modifier doesn't affect this number). You gain no benefit from wearing armor, but if you are using a shield, you can apply the shield's bonus as normal.</p>
         </description>
