@@ -4,7 +4,7 @@
 		<name>Items</name>
 		<description></description>
 		<author url="https://github.com/SirTalpaDeRedstoneville5885">SirTalpaDeRedstoneville5885</author>
-		<update version="0.0.2">
+		<update version="0.0.3">
 			<file name="items.xml" url="https://github.com/SirTalpaDeRedstoneville5885/Libro/blob/main/AuroraBuilder/Items.xml" />
 		</update>
 	</info>
