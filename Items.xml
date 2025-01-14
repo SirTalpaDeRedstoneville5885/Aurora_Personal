@@ -22,7 +22,7 @@
 			<set name="type">Raincoat</set>
 			<set name="rarity">Rare</set>
 			<set name="slot">misc</set>
-            <set name="attunement">true</set>
+            		<set name="attunement">true</set>
 			<set name="cost" currency="gp">1000</set>
 			<set name="weight" lb="14">14 lb.</set>
 		</setters>
