@@ -4,7 +4,7 @@
 		<name>Homebrew</name>
 		<description>The Dwarf race from My Personal homebrew shit 🏠🍲</description>
 		<author url="https://github.com/SirTalpaDeRedstoneville5885">SirTalpaDeRedstoneville5885</author>
-		<update version="0.0.1">
+		<update version="0.0.3">
 			<file name="Dwarf_race.xml" url="https://raw.githubusercontent.com/SirTalpaDeRedstoneville5885/Aurora_Personal/main/Razze/Dwarf_race.xml" />
 		</update>
 	</info>
@@ -47,7 +47,7 @@
 		</setters>
 		<rules>            
 			<stat name="strength" value="1" />
-            <stat name="constitution" value="2" />
+          		<stat name="constitution" value="2" />
 			<stat name="intelligence" value="1" />
 			<stat name="innate speed" value="30" bonus="base" />
 			<grant type="Size" id="ID_SIZE_MEDIUM" />
@@ -60,7 +60,7 @@
 			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_DWARVEN_SUBRACE" />
 		</rules>
 	</element>
-    <element name="Natural Armor" type="Racial Trait" source="My Personal homebrew shit " id="ID_HB_DWARVEN_NATURAL_ARMOR">
+    <element name="Natural Armor" type="Racial Trait" source="My Personal homebrew shit 🏠🍲" id="ID_HB_DWARVEN_NATURAL_ARMOR">
         <description>
             <p>Due to your hard skin and the shape of your body, you are ill-suited to wearing armor. Your skin provides ample protection, however; it gives you a base AC of 17 (your Dexterity modifier doesn't affect this number). You gain no benefit from wearing armor, but if you are using a shield, you can apply the shield's bonus as normal.</p>
         </description>
@@ -93,7 +93,7 @@
 	</element>
 <!--Per qualche ragione lui funziona perfettamente-->
 	<element name="Arcane Dwarf" type="Sub Race" source="My Personal homebrew shit 🏠🍲" id="ID_HB_SUB_RACE_ARCANE_DWARF">
-		<supports>Dwarf</supports>
+		<supports>Dwarf 🏠🍲</supports>
 		<description>
 			<p>As an Arcane dwarf, you're strong and hardy, accustomed to a difficult life in rugged terrain. You’re way taller than any other dwarf, and have an extra pair of bulkier, stronger limbs.</p>
 			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Strength score increases by 2.</p>
@@ -106,10 +106,10 @@
 		</setters>
 		<rules>
 			<stat name="strength" value="1" />
-			<grant type="Racial Trait" id="ID_RACIAL_TRAIT_SECONDARY_ARMS" />
+			<grant type="Racial Trait" id="ID_HB_RACIAL_TRAIT_SECONDARY_ARMS" />
 		</rules>
 	</element>
-	<element name="Secondary arms" type="Racial Trait" source="My Personal homebrew shit 🏠🍲" id="ID_RACIAL_TRAIT_SECONDARY_ARMS">
+	<element name="Secondary arms" type="Racial Trait" source="My Personal homebrew shit 🏠🍲" id="ID_HB_RACIAL_TRAIT_SECONDARY_ARMS">
 		<description>
 			<p>You have two slightly smaller secondary arms below your primary pair of arms. The secondary arms function like your primary arms, with the following exceptions: You can use a secondary arm to wield a weapon that has the light property, but you can’t use a secondary arm to wield other kinds of weapons.   You can’t wield a shield with a secondary arm..</p>
 		</description>

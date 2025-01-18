@@ -4,14 +4,14 @@
 		<name>Items</name>
 		<description></description>
 		<author url="https://github.com/SirTalpaDeRedstoneville5885">SirTalpaDeRedstoneville5885</author>
-		<update version="0.0.2">
+		<update version="0.0.3">
 			<file name="items.xml" url="https://github.com/SirTalpaDeRedstoneville5885/Libro/blob/main/AuroraBuilder/Items.xml" />
 		</update>
 	</info>
 
     <element name="Solid Mercury Trench coat" type="Magic Item" source="My Personal homebrew shit 🏠🍲" id="ID_HB_SOLID_MERCURY_TRENCH_COAT">
 		<description>
-			<p>While wearing this coat while you aren't attuned to it, all sources of non magical heat that you are wearing, carry or transport are negated, and no water source can be touched by the coat otherwise, all magical and non magical water will be instantaneously freezed.</p>
+			<p>While wearing this coat while you aren't attuned to it, you gain +2 AC, and all sources of non magical heat that you are wearing, carry or transport are negated, and no water source can be touched by the coat otherwise, all magical and non magical water will be instantaneously freezed.</p>
 			<p class="indent">While attuned to this raincoat, you can cast <em>Armor of Agathys</em> on yourself at will as a 1st-level spell, without expending a spell slot or material components, and you gain add double proficiency in stealth checks, wether you had proficiency or not.</p> 
 		</description>
 		<div class="reference">
@@ -22,16 +22,19 @@
 			<set name="type">Raincoat</set>
 			<set name="rarity">Rare</set>
 			<set name="slot">misc</set>
-            <set name="attunement">true</set>
+            		<set name="attunement">true</set>
 			<set name="cost" currency="gp">1000</set>
 			<set name="weight" lb="14">14 lb.</set>
 		</setters>
 		<sheet>
-			<description>You can cast <em>Armor of Agathys</em> on yourself at will. Also +{{mercury_trenchcoat:check}} on History checks related to origin of stonework.</description>
+			<description>You can cast <em>Armor of Agathys</em> on yourself at will. Also +{{mercury_trenchcoat:check}} on stealth checks.</description>
 		</sheet>
 		<rules>
-		
+			<stat name="ac:shield" value="2" bonus="Trenchcoat" />
 			<grant type="Spell" id="ID_PHB_SPELL_ARMOR_OF_AGATHYS" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_STEALTH" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_STEALTH" />			
+			<grant type="Expertise" id="ID_PROFICIENCY_SKILL_STEALTH" />
 			<stat name="mercury_trenchcoat:check" value="dexterity:modifier" />
 			<stat name="mercury_trenchcoat:check" value="stealth:misc" />
 			<stat name="mercury_trenchcoat:check" value="proficiency" />
